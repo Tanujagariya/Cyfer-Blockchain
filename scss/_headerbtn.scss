@@ -1,0 +1,32 @@
+@media (max-width: 991.98px) {
+  .custom-mobile-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+   
+    background-color:$warning; 
+    padding: 2rem 1.5rem;
+    z-index: 999;
+    border-radius: 0 0 0 1rem;
+  }
+
+  .custom-mobile-menu .navbar-nav {
+    flex-direction: column !important;
+    align-items: flex-end;
+    gap: 1rem;
+  }
+
+  .custom-mobile-menu .nav-link {
+    color: #fff !important;
+    font-size: 1.1rem;
+  }
+
+  .custom-mobile-menu .btn {
+    align-self: flex-end;
+    margin-top: 1rem;
+  }
+
+  .navbar-toggler {
+    z-index: 1001; 
+  }
+}

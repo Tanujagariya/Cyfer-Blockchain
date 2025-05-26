@@ -1,0 +1,109 @@
+
+.testimonials-section {
+  position: relative;
+  margin-top: 100px;
+  z-index: 1;
+  overflow: hidden;
+}
+
+// .gold-img {
+//   position: absolute;
+//   top: 30%;
+//   left: 0%;
+//   width: 180px;
+//   height: auto;
+//   z-index: 0;
+//   pointer-events: none;
+// }
+
+// .goldd-img {
+//   position: absolute;
+//   bottom: -5%;
+//   right: -1%;
+//   width: 200px;
+//   height: auto;
+//   z-index: 0;
+//   pointer-events: none;
+// }
+.testimonial-card {
+  position: relative;
+  margin-top: 90px;
+  margin-bottom: 32px;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  border-radius: 16px;
+  clip-path: polygon(
+    20px 0%,
+    // top-left inward
+    100% 0%,
+    // top-right
+    100% 80%,
+    // lower-right before inward cut
+    calc(100% - 20px) 100%,
+    // bottom-right inward
+    0% 100%,
+    // bottom-left
+    0% 20% // top-left side after inward cut
+  );
+  z-index: 2;
+  color: $warning;
+  background: url("../images/personcard.svg") no-repeat right center;
+  background-size: cover;
+}
+
+  .testimonial-name {
+    font-weight: 600;
+    font-size: 1rem;
+    color:$warning;
+  }
+
+  .testimonial-title {
+    font-size: 0.8rem;
+    color: #aaa;
+    margin-bottom: 0.4rem;
+  }
+
+  .social-icons a {
+    color:  $secondary;
+    background-color: $primary; 
+    font-size: 1rem;
+    margin-right: 0.6rem;
+    border: 1px solid $secondary;
+    padding: 0.1rem;
+    text-decoration: none;
+    border-radius: 4px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+.testimonial-text {
+  color: $warning;
+  font-size: 14px;
+  max-width: 45%;
+}
+
+.gold-img {
+  position: absolute;
+  top: 30%;
+  left: 0%;
+  width: 180px;
+  height: auto;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.goldd-img {
+  position: absolute;
+  bottom: -5%;
+  right: -1%;
+  width: 200px;
+  height: auto;
+  z-index: 0;
+ 
+}
+
+

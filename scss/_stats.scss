@@ -1,0 +1,19 @@
+ .text-sec{
+  font-size: 30px;
+ }
+ .stat-value {
+  font-size: 3.7rem; /* or any size you want */
+  font-weight: bold;
+}
+.stat-label{
+       font-size: 30px;
+}
+
+
+.stat-item {
+  border-right: 1px solid #b484e8 ; 
+}
+
+.stat-item:last-child {
+  border-right: none;
+}

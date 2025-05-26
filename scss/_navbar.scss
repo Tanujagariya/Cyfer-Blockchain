@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Archivo', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Clash Display Variable', sans-serif;
+}
+
+body {
+  background-image: url('../images/Cyfer_Blockchain.svg'); 
+  background-size: cover;        
+  background-repeat: no-repeat; 
+}
+
+
+
+.logo-img {
+  transform: translate(70px, 70px);
+}
+.custom-nav-link {
+  position: relative;
+  z-index: 1;
+}
+
+.custom-nav-link.active::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(156,82,235,0.4) 0%, rgba(0,0,0,0) 70%);
+  z-index: -1;
+  border-radius: 50%;
+}
+
+.custom-nav-link.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50%;
+  height: 3px;
+  background: $primary;
+  border-radius: 4px;
+}

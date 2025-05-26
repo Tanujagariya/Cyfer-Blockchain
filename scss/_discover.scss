@@ -1,0 +1,59 @@
+.discover-section {
+  position: relative;
+  margin-top: 40px;
+  padding: 80px 0;
+  overflow: hidden;
+}
+.heading-g {
+  position: relative;
+  top: -5px;
+  right: -100px;
+}
+.discover-text {
+  position: relative;
+  font-size: 20px;
+  bottom: -50px;
+  left: 100px;
+  margin-bottom: 2rem;
+  
+ 
+}
+
+.triangle-img {
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  width: 300px;
+  z-index: 0;
+  pointer-events: none;
+}
+
+
+
+.cross-img {
+  position: absolute;
+  top: 10%;
+  right: -1%;
+  width: 180px;
+  z-index: 0;
+}
+
+.mask-img {
+  position: absolute;
+  top: 6%;
+  left: -2%;
+  width: 130%;
+  height: 250px;
+  z-index: 1;
+
+  pointer-events: none;
+}
+
+.laptop-img {
+  z-index: 2;
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+}
+
+

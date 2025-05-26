@@ -1,0 +1,90 @@
+.footer-section {
+  position: relative;
+}
+.footer1-img {
+  z-index: -1;
+  bottom: -10%;
+  left: 2%;
+  width: 180px;
+  height: auto;
+  z-index: -2;
+}
+
+.footer2-img {
+  z-index: -4;
+  bottom: 40%;
+  right: 4%;
+  width: 150px;
+  height: auto;
+  z-index: 0;
+}
+.small-p {
+  font-size: 20px;
+}
+.footer-card {
+  margin-top: 90px;
+  position: relative;
+  overflow: hidden;
+  padding: 10px 100px;
+  background: url("../images/footerbg.svg") no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(
+    40px 0%,
+    100% 0%,
+    100% 40px,
+    100% calc(100% - 40px),
+    calc(100% - 60px) 100%,
+    0% 100%,
+    0% 40px
+  );
+
+  border-radius: 12px;
+}
+
+.social-icons a {
+  color: $secondary;
+  background-color: $primary;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 1rem;
+  width: 27px;
+  height: 27px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+}
+
+a {
+  color: $warning;
+  text-decoration: none;
+
+  &:hover {
+    color: $warning;
+  }
+}
+
+.footer-section ul li {
+  margin-bottom: 14px;
+}
+
+.footer-card {
+  position: relative;
+}
+.col-md-3 p {
+  margin-bottom: 12px;
+}
+.heading-28{
+  font-size: 28px;
+}
+.footer-copyright {
+  position: absolute;
+  bottom: 5px;
+  font-size: 14px;
+  right: 10px;
+}

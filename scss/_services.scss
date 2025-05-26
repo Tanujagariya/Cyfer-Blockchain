@@ -1,0 +1,197 @@
+.our-services-section {
+  position: relative;
+  margin-top: 100px;
+}
+
+.card-sec {
+  margin-top: 90px;
+}
+.corner-img {
+  position: absolute;
+  top: -10%;
+  left: -2%;
+  width: 160px;
+}
+
+.ball-img {
+  position: absolute;
+  bottom: -7%;
+  right: -2%;
+  width: 300px;
+  z-index: -2;
+}
+
+.service-card img.icon {
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.section-tag {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.section-title {
+  font-size: 60px;
+  font-weight: 700;
+  .block-line {
+    display: block;
+  }
+}
+
+.learn-more-btn {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  color: $warning;
+  background: url("../images/laern.svg") no-repeat left center;
+  background-size: contain;
+  border: none;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.service-card {
+  position: relative;
+  padding: 2rem 1.5rem;
+  border-radius: 3px;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+    background-color: #b95dfe;
+  }
+
+  h5 {
+    font-size: 30px;
+    font-weight: 600;
+    color: $pinkish;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .icon {
+    width: 40px;
+    height: 90px;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+    z-index: -1;
+    transition: transform 4s ease;
+  }
+}
+
+.service-bg-1::before {
+  background-image: url("../images/service8.svg");
+  clip-path: polygon(
+    12px 0%,
+    100% 0%,
+    100% 100%,
+    calc(100% - 12px) 100%,
+    0% 100%,
+    0% 0%
+  );
+}
+
+.service-bg-2::before {
+  background-image: url("../images/service2.svg");
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% - 30px),
+    calc(100% - 16px) 100%,
+    16px 100%,
+    0 calc(100% - 30px)
+  );
+}
+
+.service-bg-3::before {
+  background-image: url("../images/service2.svg");
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% - 30px),
+    calc(100% - 16px) 100%,
+    16px 100%,
+    0 calc(100% - 30px)
+  );
+}
+
+.service-bg-4::before {
+  background-image: url("../images/service4.svg");
+  clip-path: polygon(
+    0 0,
+    calc(100% - 25px) 0,
+    100% 25px,
+    100% 100%,
+    25px 100%,
+    0 calc(100% - 25px)
+  );
+}
+
+.service-bg-5::before {
+  background-image: url("../images/service4.svg");
+  clip-path: polygon(
+    0 0,
+    calc(100% - 25px) 0,
+    100% 25px,
+    100% 100%,
+    25px 100%,
+    0 calc(100% - 25px)
+  );
+}
+
+.service-bg-6::before {
+  background-image: url("../images/service6.svg");
+  clip-path: polygon(
+    0 0,
+     100% 0,
+     100% 0 
+      12px 100%,
+    0 calc(100% - 12px)
+      
+  );
+}
+
+.service-bg-7::before {
+  background-image: url('../images/service6.svg');
+  clip-path: polygon(
+    0 0,
+     100% 0,
+     100% 0 
+      12px 100%,
+    0 calc(100% - 12px)
+      
+  );
+}
+
+.service-bg-8 {
+background-image: url("../images/service8.svg");
+  clip-path: polygon(
+    12px 0%,
+    100% 0%,
+    100% 100%,
+    calc(100% - 12px) 100%,
+    0% 100%,
+    0% 0%
+  );
+
+
+}
+   
+
